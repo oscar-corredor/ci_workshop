@@ -14,8 +14,8 @@ jobs:
       script: skip
       deploy:
         provider: heroku
-        api_key: quorxYXMd1Yj5Di9Gk4sBylyoTHel9Sv8BRPKEXl8oxlf0IJQoptE/r06Rc000YhoEkSJkMiIdOpxgcCDz1JzOMrFsXWrp4Y+TlUEhF4dJy9xTPsh1GRXZGqGf2CVoKSpOYNNKnbtJHNG06uTMeu+cfp/JuJDLeyGo1VltbRe2X6lv6Wsj1C6JkxHtAP+SBc2uQbMnZss3zT9GpszuxCB8R9fXjjVHLqGRm78U84CfDh0g0kQDBOy1r8Ee28uIChrcuoZ56QdQxNAEOuKNXMwlFbY09wKe6MKcXZIbKt40G1iFnq2Wff/3CKw3FKJeJguUQgcLPa5BuYP5OWXdf/vxAVO+i78SEqygVp07s8/i9qGcGbg3NQipVkajydOemBOYAIp2rDYVokj8WcFBDhKaUsdss6t9LLsVNO0s67/aDYlKto3kCX0pcKdMnc+5OA7hmNWIGXAxZxggHCpljphg0V+qaEJU59w0MAsqMWlT8giRqLRQHWYWYlMj+tHm6lvWty0kMuzQtj8nFRzc+JhmygYF1ImbGP8uY6gaRKjp1yAQexcKEXBb6NhEZyj8UeihipBM4aDh1/MOn4aAsisIrF1FebPDwmnPt+XH6Gn0U1x84mlIRsxqb0cB7v2hriyn44ROQs0QFzdVdGdZSywSIYd1aFiCWbigV5LECBkew=
-          secure: {insert secret here}
-        app: {your-app-name-here}
+        api_key: 
+          secure: quorxYXMd1Yj5Di9Gk4sBylyoTHel9Sv8BRPKEXl8oxlf0IJQoptE/r06Rc000YhoEkSJkMiIdOpxgcCDz1JzOMrFsXWrp4Y+TlUEhF4dJy9xTPsh1GRXZGqGf2CVoKSpOYNNKnbtJHNG06uTMeu+cfp/JuJDLeyGo1VltbRe2X6lv6Wsj1C6JkxHtAP+SBc2uQbMnZss3zT9GpszuxCB8R9fXjjVHLqGRm78U84CfDh0g0kQDBOy1r8Ee28uIChrcuoZ56QdQxNAEOuKNXMwlFbY09wKe6MKcXZIbKt40G1iFnq2Wff/3CKw3FKJeJguUQgcLPa5BuYP5OWXdf/vxAVO+i78SEqygVp07s8/i9qGcGbg3NQipVkajydOemBOYAIp2rDYVokj8WcFBDhKaUsdss6t9LLsVNO0s67/aDYlKto3kCX0pcKdMnc+5OA7hmNWIGXAxZxggHCpljphg0V+qaEJU59w0MAsqMWlT8giRqLRQHWYWYlMj+tHm6lvWty0kMuzQtj8nFRzc+JhmygYF1ImbGP8uY6gaRKjp1yAQexcKEXBb6NhEZyj8UeihipBM4aDh1/MOn4aAsisIrF1FebPDwmnPt+XH6Gn0U1x84mlIRsxqb0cB7v2hriyn44ROQs0QFzdVdGdZSywSIYd1aFiCWbigV5LECBkew=
+        app: ci-workshop-app
         on:
-          repo: {gh_username}/ci_workshop
+          repo: oscar-corredor/ci_workshop
